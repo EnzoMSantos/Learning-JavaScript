@@ -8,7 +8,7 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         img.src = 'Manha COMPLETA.png'
     } 
-    else if (hora >= 12 && hora < 18) {
+    else if (hora >= 12 && hora <= 18) {
         img.src = 'Tarde COMPLETA.png'
     }
     else {
