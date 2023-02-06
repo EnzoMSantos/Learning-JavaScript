@@ -17,11 +17,8 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
-p {
-    font: normal 18pt Arial;
-}
 div {
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
@@ -29,10 +26,4 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
-}
-
-input[type="button"] {
-    width: 100px;
-    margin-left: 10px;
-    padding-top: -10px;
 }
