@@ -22,10 +22,14 @@ section {
     text-align: left;
 } */
 
+
+
 div {
-    text-align: center;
+    text-align: left;
     padding: 8px;
 }
+
+
 
 footer {
     color: white;
@@ -34,6 +38,8 @@ footer {
 }
 
 select#flista {
+    color: black;
+    align-self: left;
     text-align: left;
     width: 150px;
 }
