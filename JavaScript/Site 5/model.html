@@ -14,12 +14,15 @@
     </header>
     <section>
         <div>
-            <p>Número (entre 1 a 100): <input type="number" /> <input type="button" value="Adcionar" onclick="AddNumero()"/></p>
-        </div>
-        <div id="numeros">
-        <select size="10"></select>
+            <p>Número (entre 1 a 100): <input type="number" id="fnum"/>
+                <input type="button" value="Adcionar" onclick="AddNumero()"/>
+            </p> <br/> <br/>
+            <select size="6" id="flista"></select> <br/>
             <input type="button" value="Finalizar" onclick="Finalizar()"/>
-         </div>
+        </div>
+        <div id="res"> 
+
+        </div>
     </section>
     <footer>
         <p>&copy; Enzo Moura dos Santos</p>
